@@ -1,0 +1,35 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+
+}
+#myclass{
+    display: grid;
+    grid-template-columns: repeat(3,auto );
+    width: 225px;
+    margin: auto;
+    color: white;
+}
+#tic{
+    text-align: center;
+    background-color: transparent;
+}
+*{
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: bisque;
+}
+h2#status {
+    color: crimson;
+}
+button#btn {
+    color: white;
+}
